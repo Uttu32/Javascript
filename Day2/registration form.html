@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+
+    <link rel="stylesheet" href="StyleSheet.css">
+
+</head>
+<body>
+    <h1>Registration for learning Html and Css </h1>
+    <header>
+        <ul>
+            <nav>
+                <a href="utkarsh photo.png">Home</a>
+                <a href="Utkarsh sharma.jpg">Registration</a>
+                <a href="C++ Basics.html">About</a>
+                <a href="My.html">Contact</a>
+            </nav>
+        </ul>
+    </header>
+    <p>Here in this course you will learn about the web development basics and also work on some projects. So if you want to join this course fill out the below form.</p>
+
+    <form>
+        <div>
+            <label name="Fname">First name</label>
+            <input type="text" for="Fname" placeholder="Ex: Utkarsh, Naresh, John">
+        </div>
+        <div>
+            <label name="Lname">Last name</label>
+            <input type="text" for="Lname" placeholder="Ex: Sharma, Gurjar, Abrahim">
+        </div>
+        <div>
+            <label>Gender:-</label><br>
+            <label name="Gender" >Male</label>
+            <input type="radio" name="Gender" > 
+            <label name="Gender" >Female</label>
+            <input type="radio" name="Gender" > 
+            <label name="Gender" >other</label>
+            <input type="radio" name="Gender" > 
+        </div><br>
+        <div>
+            <label name="Contact no."> Contact No.</label>
+            <input type="text" name="Contact no." placeholder="1234567890" required>
+        </div>
+        <div>
+            <label name="Email">Email</label>
+            <input type="Email" name="Email" placeholder="Ut@gmail.com" required>
+        </div>
+        <div>
+            <label for="EdBack">Educational Background (HIGHER STUDIES)</label>
+            <select id="EdBack" name="EdBack" required>
+                <option selected>Select</option>
+                <option value="UGradute">Under Graduate</option>
+                <option value="PG">Post Gradute</option>
+                <option value="12th">12th</option>
+                <option value="10th">10th</option>
+                
+            </select>
+        </div>
+        <div  class="buttons">
+            <button type="submit" >Submit</button>
+            <button type="reset" >Reset</button>
+        </div>
+        
+    </form>
+</body>
+</html>
